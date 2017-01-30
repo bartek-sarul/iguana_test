@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "shared1"
+    ],
+    "OtherDependencies": [
+        "other1.lua"
+    ],
+    "timestamp": "1485810757",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

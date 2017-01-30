@@ -1,0 +1,24 @@
+<channel
+   name="Channel 2"
+   guid="3E379B45D502EDC0943FE5C24C7260CA"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Channel_2-To-67N7OkbpM7qtiC"
+      commit_id="4745fd9940bd0618e09d0fe1b0384d7636e39e1c"
+      commit_comment=",jn">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="9B95D29FB3A5621462956EF930EBD1A8"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="5345"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>
